@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Book Tracker</string>
+
+    <string name="book_name_1">Green Eggs and Ham</string>
+    <string name="book_author_1">Dr. Seuss</string>
+
+    <string name="book_name_2">1 Fish, 2 Fish, Red Fish, Blue Fish</string>
+    <string name="book_author_2">Dr. Seuss</string>
+
+    <string name="by_author">By</string>
+</resources>
