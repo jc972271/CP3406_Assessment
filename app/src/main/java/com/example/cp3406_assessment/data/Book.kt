@@ -15,6 +15,12 @@ data class Book(
 )
 
 val books = listOf(
-    Book(R.drawable.book_placeholder, R.string.book_name_1, R.string.book_author_1, 4),
-    Book(R.drawable.book_placeholder, R.string.book_name_2, R.string.book_author_2, 4),
+    Book(R.drawable.greeneggs, R.string.book_name_1, R.string.book_author_1, 4),
+    Book(R.drawable.red_fish, R.string.book_name_2, R.string.book_author_2, 4),
+    Book(R.drawable.greeneggs, R.string.book_name_1, R.string.book_author_1, 4),
+    Book(R.drawable.red_fish, R.string.book_name_2, R.string.book_author_2, 4),
+    Book(R.drawable.greeneggs, R.string.book_name_1, R.string.book_author_1, 4),
+    Book(R.drawable.red_fish, R.string.book_name_2, R.string.book_author_2, 4),
+    Book(R.drawable.greeneggs, R.string.book_name_1, R.string.book_author_1, 4),
+    Book(R.drawable.red_fish, R.string.book_name_2, R.string.book_author_2, 4),
 )

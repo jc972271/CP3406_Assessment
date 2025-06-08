@@ -148,9 +148,8 @@ fun BookCover(
     Image(
         modifier = modifier
             .size(dimensionResource(R.dimen.image_size))
-            .padding(dimensionResource(R.dimen.padding_small))
-            .clip(MaterialTheme.shapes.small),
-        contentScale = ContentScale.Crop,
+            .padding(dimensionResource(R.dimen.padding_small)),
+        //contentScale = ContentScale.Crop,
         painter = painterResource(bookCover),
 
         // Content Description is not needed here - image is decorative, and setting a null content
@@ -163,8 +162,8 @@ fun BookCover(
 /**
  * Composable that displays a books title and author.
  *
- * @param bookTitle is the resource ID for the string of the dog's name
- * @param bookAuthor is the Int that represents the dog's age
+ * @param bookTitle is the resource ID for the string of the book's title
+ * @param bookAuthor is the Int that represents the book's author
  * @param modifier modifiers to set to this composable
  */
 @Composable
